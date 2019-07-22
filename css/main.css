@@ -26,7 +26,12 @@ footer{
   line-height: 2.5em;
   font-size: 10px;
 }
-
+li:hover{
+  border-radius: 5px;
+  background-color:#484a4a;
+  background: linear-gradient(to right,#6a6b6b,#484a4a 5%,#484a4a 95%,#6a6b6b);
+  transition-duration: 1s;
+}
 
 #main-img{
   width: 100%;
