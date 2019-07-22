@@ -7,7 +7,7 @@ img{
 }
 li{
   display: inline-block;
-  padding: 9px 3.572%;
+  padding: 9px 3.574%;
   margin: 0;
   color: white;
   border-right: 1px solid #363636;
@@ -30,11 +30,20 @@ li:hover{
   background: linear-gradient(to bottom,#3d3d3d 50%,#0d0d0d 50%,#3d3d3d);
 }
 
+
 #main-img{
   width: 100%;
   height: 620px;
   margin-bottom: 2px;
 
+}
+.li-left:hover{
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 5px;
+}
+.li-right:hover{
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
 }
 .apple-logo{
   width:20px;
@@ -80,7 +89,7 @@ li:hover{
   text-decoration: underline;
 }
 .p{
-  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
   position: absolute;
   z-index: 10;
   color: #f0f2f5;
