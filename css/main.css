@@ -7,7 +7,7 @@ img{
 }
 li{
   display: inline-block;
-  padding: 9px 3.35%;
+  padding: 9px 3.572%;
   margin: 0;
   color: white;
   border-right: 1px solid #363636;
@@ -27,10 +27,7 @@ footer{
   font-size: 10px;
 }
 li:hover{
-  border-radius: 5px;
-  background-color:#484a4a;
-  background: linear-gradient(to right,#6a6b6b,#484a4a 5%,#484a4a 95%,#6a6b6b);
-  transition-duration: 1s;
+  background: linear-gradient(to bottom,#3d3d3d 50%,#0d0d0d 50%,#3d3d3d);
 }
 
 #main-img{
@@ -83,7 +80,7 @@ li:hover{
   text-decoration: underline;
 }
 .p{
-  font-family: "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
   position: absolute;
   z-index: 10;
   color: #f0f2f5;
