@@ -63,7 +63,13 @@ li:hover{
   margin-bottom: 2px;
   overflow: hidden;
 }
-
+.aClass{
+  color:white;
+}
+.aClass:hover{
+  color:white;
+  text-decoration: none;
+}
 .all-img-bottom{
   height: 200px;
 }
