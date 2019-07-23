@@ -4,6 +4,7 @@ body{
 img{
   float: left;
   width: 25%;
+  object-fit: cover;
 }
 li{
   float: left;
@@ -56,12 +57,13 @@ li:hover{
 
 #us-logo{
   width: 15px;
+  float: none;
 }
 #main-img{
   width: 100%;
   height: 620px;
   margin-bottom: 2px;
-  overflow: hidden;
+  object-fit: cover;
 }
 .aClass{
   color:white;
