@@ -3,6 +3,6 @@ AW Clone This project conssist replicating of article website putting emphasis o
 
 Used: CSS and HTML
 
-Hector Uzquiano https://github.com/Juakata 
+Hector Uzquiano https://github.com/Juakata
 
-Follow this link to see the Website: 
+Follow this link to see the Website: https://raw.githack.com/Juakata/Apple-Website/master/index.html
