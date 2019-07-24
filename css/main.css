@@ -1,5 +1,6 @@
 body{
   margin:0;
+  padding: 0;
 }
 img{
   float: left;
@@ -41,29 +42,66 @@ nav{
   width: 98%;
   z-index: 20;
 }
-footer{
-  margin: 0 auto;
-  width: 1000px;
-  padding: 22px;
-  line-height: 2.5em;
-  font-size: 10px;
-}
+
 span{
   vertical-align: middle;
 }
 li:hover{
   background: linear-gradient(to bottom,#3d3d3d 50%,#0d0d0d 50%,#3d3d3d);
 }
-
+#footer-text{
+  margin: 0 auto;
+  width: 1000px;
+  padding: 22px;
+  line-height: 2.5em;
+  font-size: 10px;
+}
 #us-logo{
   width: 15px;
   float: none;
 }
-#main-img{
-  width: 100%;
-  height: 620px;
-  margin-bottom: 2px;
-  object-fit: cover;
+.text1{
+  margin: 0 auto;
+  width: 600px;
+  height: 100px;
+  background-image: url(../imgs/text1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.background-images{
+  width: 1440px;
+  margin: 0 auto;
+  height: 200px;
+}
+.back{
+  width: 24.844%;
+  float: left;
+  height: 200px;
+  margin-top: 3px;
+
+}
+.img1{
+  background-image: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5s.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img2{
+  background-image: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5c.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 3px;
+}
+.img3{
+  background-image: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_30_years.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 3px;
+}
+.img4{
+  background-image: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_supplier_responsibility.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 3px;
 }
 .aClass{
   color:white;
@@ -112,9 +150,14 @@ li:hover{
 
 }
 .container{
-  width: 1465px;
-  margin: 0 auto;
-  position: relative;
+  width: 1440px;
+  height: 620px;
+  background-image: url("../imgs/main-img.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: top;
+  background-size: cover;
+
 }
 .footer-left{
   float: left;
