@@ -1,19 +1,27 @@
+
 body{
   margin:0;
+  padding: 0;
 }
-img{
+button{
+  width: 10.7%  ;
   float: left;
-  width: 25%;
-  object-fit: cover;
-}
-li{
-  float: left;
+  height: 100%;
   display: inline-block;
-  padding: 9px 3.574%;
+  background: linear-gradient(to bottom,grey 50%,#636161 50%,grey);
+  border: 1px solid #626263;
   color: white;
-  border-right: 1px solid #363636;
+  outline: none;
   text-shadow: 0px -1px #383838;
 }
+
+button:hover{
+  background: linear-gradient(to bottom,#3d3d3d 50%,#0d0d0d 50%,#3d3d3d);
+}
+button:active{
+  box-shadow: inset -1px 1px 15px black;
+}
+
 input{
   width: 107px;
   border-radius: 10px;
@@ -34,137 +42,189 @@ input:focus{
   background-repeat: no-repeat;
   color:black;
   outline: none;
+
 }
 nav{
   position: absolute;
-  top: 70px;
-  width: 98%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 80px;
+  width: 1440px;
   z-index: 20;
 }
-footer{
+
+#first-button{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+#apple-btn{
+  width: 25px;
+  margin-left: 10px;
+  -webkit-filter: drop-shadow(1px 1px 1px #222 );
+ filter: drop-shadow(0px -1px 0 #222);
+}
+#footer-text{
   margin: 0 auto;
   width: 1000px;
   padding: 22px;
   line-height: 2.5em;
   font-size: 10px;
 }
-span{
-  vertical-align: middle;
-}
-li:hover{
-  background: linear-gradient(to bottom,#3d3d3d 50%,#0d0d0d 50%,#3d3d3d);
-}
-
 #us-logo{
   width: 15px;
   float: none;
 }
-#main-img{
-  width: 100%;
+
+.a-back{
+  width: 1440px;
   height: 620px;
-  margin-bottom: 2px;
-  object-fit: cover;
+  margin: auto;
+  left: 0;
+  right: 0;
+  position: absolute;
+  display:block;
 }
-.aClass{
-  color:white;
+.search-bar-container{
+    background: linear-gradient(to bottom,grey 50%,#636161 50%,grey);
+    height: 100%;
+    padding-top: 8px;
+    padding-left: 87.5%;
+    border-radius: 5px;
+    border: 1px solid #626263;
+
 }
-.aClass:hover{
-  color:white;
-  text-decoration: none;
+.text1{
+  margin: 0 auto;
+  margin-top:200px;
+  width: 700px;
+  height: 70px;
+  background-image: url(../imgs/text1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.all-img-bottom{
+
+.text2{
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 800px;
+  height: 100px;
+  background-image: url(../imgs/text2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.text3{
+  width: 575px;
+  height: 40px;
+  background-image: url(../imgs/text3.png);
+  background-repeat: no-repeat;
+  background-size:contain;
+  position: absolute;
+  z-index: 100;
+  margin: auto;
+  right: 0;
+  left: 0;
+}
+.text3:hover{
+  background-image: url(../imgs/hover3.png);
+}
+.background-images{
+  width: 1440px;
+  margin: 0 auto;
   height: 200px;
 }
-.img-center{
-  padding-left: 0.3%;
+.back{
+  width: 24.775%;
+  float: left;
+  height: 200px;
+  margin-top: 3px;
+  background-position: center;
 }
-.li-left:hover{
-  border-top-left-radius: 4px;
-  border-bottom-left-radius: 5px;
+.img1{
+  background-image: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5s.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.li-right:hover{
-  border-top-right-radius: 4px;
-  border-bottom-right-radius: 4px;
+.img2{
+  background-image: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5c.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  margin-left: 0.3%;
 }
+.img3{
+  background-image: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_30_years.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 0.3%;
+}
+.img4{
+  background-image: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_supplier_responsibility.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 0.3%;
+}
+
 .apple-logo{
   width:20px;
   -webkit-filter: drop-shadow(1px 1px 1px #222 );
  filter: drop-shadow(0px -1px 0 #222);
 }
-.last-li{
-  border: none;
-  padding-left: 2%;
-  padding-right: 2%;
-}
-.last-li:hover{
-  background: none;
-}
+
 .nav-style{
   padding: 0;
   list-style: none;
   width: 1000px;
   height: 40px;
-  background: white;
   margin: 0 auto;
-  background: linear-gradient(to bottom,grey 50%,#636161 50%,grey);
-  border-radius: 5px;
-  border: 1px solid #363636;
-
 }
 .container{
-  width: 1465px;
-  margin: 0 auto;
-  position: relative;
+  width: 1440px;
+  height: 620px;
+  background-image: url("../imgs/main-img.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: top;
+  background-size: cover;
 }
 .footer-left{
   float: left;
+  width: 50%;
 }
 .footer-right{
   float: right;
-}
-.extra-link{
-  color: #f0f2f5;
-  text-decoration: none ;
-}
-.extra-link:hover{
-  color: #f0f2f5;
-  text-decoration: none ;
-}
-.extra-link-hover:hover{
-  color: #f0f2f5;
-  text-decoration: underline;
-}
-.p{
-  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-  position: absolute;
-  z-index: 10;
-  color: #f0f2f5;
-  width: 100%;
-  text-align: center;
-}
-.first-p{
-  font-size: 50px;
-  top: 200px;
-
-}
-.second-p{
-  font-size: 25px;
-  top: 290px;
-
-}
-.third-p{
-  font-size: 22px;
-  top: 380px;
+  width: 50%;
 }
 
 @media(max-width:1475px){
   .container{
     width: 100%;
   }
-
+  .background-images{
+    width: 100%;
+  }
+  .a-back{
+    width: 100%;
+  }
+  nav{
+    width: 100%;
+  }
 }
 @media(max-width:1085px){
   .container{
     width: 1085px;
+  }
+  .a-bac{
+    width: 1085px;
+
+  }
+  nav{
+    width: 1085px;
+  }
+  .background-images{
+    width: 1085px;
+  }
+  .text3{
+    margin:inherit;
+    left: 260px;
   }
 }
