@@ -61,8 +61,12 @@ input:focus{
 
 }
 nav{
-  margin-top: 70px;
-  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 80px;
+  width: 1440px;
   z-index: 20;
 }
 
@@ -106,7 +110,7 @@ li:hover{
 }
 .text1{
   margin: 0 auto;
-  margin-top:90px;
+  margin-top:200px;
   width: 700px;
   height: 70px;
   background-image: url(../imgs/text1.png);
@@ -124,13 +128,16 @@ li:hover{
   background-size: contain;
 }
 .text3{
-  margin: 0 auto;
-  margin-top:20px;
   width: 575px;
   height: 40px;
   background-image: url(../imgs/text3.png);
   background-repeat: no-repeat;
   background-size:contain;
+  position: absolute;
+  z-index: 100;
+  margin: auto;
+  right: 0;
+  left: 0;
 }
 .text3:hover{
   background-image: url(../imgs/hover3.png);
@@ -276,13 +283,23 @@ li:hover{
   .background-images{
     width: 100%;
   }
+  nav{
+    width: 100%;
+  }
 
 }
 @media(max-width:1085px){
   .container{
     width: 1085px;
   }
+  nav{
+    width: 1085px;
+  }
   .background-images{
     width: 1085px;
+  }
+  .text3{
+    margin:inherit;
+    left: 260px;
   }
 }
