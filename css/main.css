@@ -1,3 +1,4 @@
+
 body{
   margin:0;
   padding: 0;
@@ -59,7 +60,7 @@ nav{
 }
 #apple-btn{
   width: 25px;
-  margin-left: 34px;
+  margin-left: 10px;
   -webkit-filter: drop-shadow(1px 1px 1px #222 );
  filter: drop-shadow(0px -1px 0 #222);
 }
@@ -73,6 +74,16 @@ nav{
 #us-logo{
   width: 15px;
   float: none;
+}
+
+.a-back{
+  width: 1440px;
+  height: 620px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  position: absolute;
+  display:block;
 }
 .search-bar-container{
     background: linear-gradient(to bottom,grey 50%,#636161 50%,grey);
@@ -191,14 +202,20 @@ nav{
   .background-images{
     width: 100%;
   }
+  .a-back{
+    width: 100%;
+  }
   nav{
     width: 100%;
   }
-
 }
 @media(max-width:1085px){
   .container{
     width: 1085px;
+  }
+  .a-bac{
+    width: 1085px;
+
   }
   nav{
     width: 1085px;
