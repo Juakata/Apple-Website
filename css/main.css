@@ -2,11 +2,6 @@ body{
   margin:0;
   padding: 0;
 }
-img{
-  float: left;
-  width: 25%;
-  object-fit: cover;
-}
 button{
   width: 10.7%  ;
   float: left;
@@ -26,18 +21,6 @@ button:active{
   box-shadow: inset -1px 1px 15px black;
 }
 
-li{
-  float: left;
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-  width: 10.7%;
-  text-align: center;
-  height: 100%;
-  color: white;
-  border-right: 1px solid #626263;
-  text-shadow: 0px -1px #383838;
-}
 input{
   width: 107px;
   border-radius: 10px;
@@ -70,12 +53,6 @@ nav{
   z-index: 20;
 }
 
-span{
-  vertical-align: middle;
-}
-li:hover{
-  background: linear-gradient(to bottom,#3d3d3d 50%,#0d0d0d 50%,#3d3d3d);
-}
 #first-button{
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -85,8 +62,6 @@ li:hover{
   margin-left: 34px;
   -webkit-filter: drop-shadow(1px 1px 1px #222 );
  filter: drop-shadow(0px -1px 0 #222);
-
-
 }
 #footer-text{
   margin: 0 auto;
@@ -177,43 +152,13 @@ li:hover{
   background-repeat: no-repeat;
   margin-left: 0.3%;
 }
-.aClass{
-  color:white;
-}
-.aClass:hover{
-  color:white;
-  text-decoration: none;
-}
-.all-img-bottom{
-  height: 200px;
-}
-.img-center{
-  padding-left: 0.3%;
-}
-.li-left{
-  padding-left: 45px;
-}
-.li-left:hover{
-  border-top-left-radius: 4px;
-  border-bottom-left-radius: 5px;
-}
-.li-right:hover{
-  border-top-right-radius: 4px;
-  border-bottom-right-radius: 4px;
-}
+
 .apple-logo{
   width:20px;
   -webkit-filter: drop-shadow(1px 1px 1px #222 );
  filter: drop-shadow(0px -1px 0 #222);
 }
-.last-li{
-  border: none;
-  padding-left: 2%;
-  padding-right: 2%;
-}
-.last-li:hover{
-  background: none;
-}
+
 .nav-style{
   padding: 0;
   list-style: none;
@@ -229,51 +174,14 @@ li:hover{
   background-position: center;
   background-position: top;
   background-size: cover;
-
 }
 .footer-left{
   float: left;
   width: 50%;
-
 }
 .footer-right{
   float: right;
   width: 50%;
-
-}
-.extra-link{
-  color: #f0f2f5;
-  text-decoration: none ;
-}
-.extra-link:hover{
-  color: #f0f2f5;
-  text-decoration: none ;
-}
-.extra-link-hover:hover{
-  color: #f0f2f5;
-  text-decoration: underline;
-}
-.p{
-  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-  position: absolute;
-  z-index: 10;
-  color: #f0f2f5;
-  width: 100%;
-  text-align: center;
-}
-.first-p{
-  font-size: 50px;
-  top: 200px;
-
-}
-.second-p{
-  font-size: 25px;
-  top: 290px;
-
-}
-.third-p{
-  font-size: 22px;
-  top: 380px;
 }
 
 @media(max-width:1475px){
